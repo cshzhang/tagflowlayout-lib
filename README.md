@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         hzh:max_select="3"
-		hzh:
+		hzh:auto_select_effect="true"
         />
 
 </LinearLayout>
