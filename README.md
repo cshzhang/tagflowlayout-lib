@@ -1,6 +1,9 @@
 # tagflowlayout-lib
 继承FlowLayout，实现对于Tag点击，选择交互；用户通过写selector标签自定义点击后TagView状态的变化
 
+#效果图
+<img src="tagflowlayout.gif" width="320px"/>
+
 # 功能
 * 以setAdapter形式注入数据
 * 直接设置selector为background即可完成标签选则的切换，类似CheckBox
