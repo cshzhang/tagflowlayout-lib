@@ -82,6 +82,7 @@ mTagFlowLayout.setOnTagClickListener(new TagFlowLayout.OnTagClickListener()
 ```
 
 选择多个标签回调事件
+```java
 mTagFlowLayout.setOnTagSelectedListener(new TagFlowLayout.OnTagSelectedListener()
 {
 	@Override
@@ -90,6 +91,7 @@ mTagFlowLayout.setOnTagSelectedListener(new TagFlowLayout.OnTagSelectedListener(
 		getActivity().setTitle("Choose"+selectedViews.toString());
 	}
 });
+```
 
 #预先设置Item选中
 ```java
